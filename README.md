@@ -8,9 +8,9 @@
 
 ## About
 
-`bootstrap-npm-starter` is a GitHub template repository for creating new Bootstrap-powered npm projects, maintained by Bootstrap co-author @mdo. You can also use it as your own Bootstrap prototyping sandbox. It's built with Bootstrap v4 with plans to update for v5.
-
-[![Build Status](https://github.com/twbs/bootstrap-npm-starter/workflows/CI/badge.svg)](https://github.com/twbs/bootstrap-npm-starter/actions)
+`bootstrap-starter` is a GitHub template repository for creating new Bootstrap-powered npm projects, not maintained. You can use it as your own Bootstrap prototyping sandbox. It's built with Bootstrap v5.
+Based on 
+[![bootstrap-npm-starter](https://github.com/twbs/bootstrap-npm-starter/)](https://github.com/twbs/bootstrap-npm-starter/)
 
 ## Repo template
 
@@ -19,7 +19,7 @@ Setup as a starter template, you can easily generate a new GitHub repository. Fr
 ## What's included
 
 - Single HTML page (`index.html`) to demonstrate how to include Bootstrap.
-- Includes [Bootstrap](https://getbootstrap.com) (currently using v4.6.0) source files via npm.
+- Includes [Bootstrap](https://getbootstrap.com) (currently using v5.1.3) source files via npm.
 - Includes [Bootstrap Icons](https://icons.getbootstrap.com) (v1.4.0), which includes over 1,200 icons available as SVGs and web fonts.
 - npm scripts (see `package.json`) for compiling and autoprefixing Sass, watching for changes, and starting a basic local server.
 - Example stylesheet (`scss/starter.scss`) highlighting two ways to include and customize Bootstrap.
@@ -32,7 +32,7 @@ Be sure to have [Node.js](https://nodejs.org/) installed before proceeding.
 ```shell
 # Clone the repo
 git clone https://github.com/twbs/bootstrap-npm-starter
-cd bootstrap-npm-starter
+cd bootstrap-starter
 
 # Install dependencies
 npm i
